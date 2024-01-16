@@ -1,0 +1,80 @@
+{
+  "createTest": {
+    "prefix": "createTest",
+    "body": [
+      "const sinon = require('sinon');",
+      "const assert = require('assert');",
+      "const { describe, it, beforeAll, afterAll, afterEach, beforeEach } = require('mocha');",
+      "",
+      "describe('My Module', () => {",
+      "  beforeAll(() => {",
+      "    // Your code here",
+      "  });",
+      "",
+      "  afterAll(() => {",
+      "    // Your code here",
+      "  });",
+      "",
+      "  it('should do something', () => {",
+      "    // Arrange",
+      "    // Set up any necessary data or state",
+      "  });",
+      "});"
+    ],
+    "description": "Create Test Template"
+  },
+  "ba": {
+    "prefix": "ba",
+    "body": [
+      "beforeAll(() => {",
+      "\t// Your code here",
+      "});"
+    ],
+    "description": "Insert beforeAll snippet"
+  },
+  "be": {
+    "prefix": "be",
+    "body": [
+      "beforeEach(() => {",
+      "\t// Your code here",
+      "});"
+    ],
+    "description": "Insert beforeEach snippet"
+  },
+  "af": {
+    "prefix": "af",
+    "body": [
+      "afterAll(() => {",
+      "\t// Your code here",
+      "});"
+    ],
+    "description": "Insert afterAll snippet"
+  },
+  "ae": {
+    "prefix": "ae",
+    "body": [
+      "afterEach(() => {",
+      "\t// Your code here",
+      "});"
+    ],
+    "description": "Insert afteEach for All snippet"
+  },
+  "it": {
+    "prefix": "it",
+    "body": [
+      "it('should_do', async () => {",
+      "\t// Your code here",
+      "});"
+    ],
+    "description": "Insert afteEach for All snippet"
+  },
+  "describe": {
+    "prefix": "describe",
+    "body": [
+      "describe('Test cases for', () => {",
+      "\t// Your code here",
+      "});"
+    ],
+    "description": "Insert afteEach for All snippet"
+  }
+}
